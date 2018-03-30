@@ -22,11 +22,6 @@ class Login extends Component {
         e.preventDefault();
     }
 
-    // toggleRoute(e) {
-    //     let alt = (this.state.route === 'Login') ? 'SignUp' : 'Login';
-    //     this.setState({ route: alt });
-    //     e.preventDefault();
-    // }
 
     onSignInOutBtnPress = (e) => {
         if (e === 'singUp') {
@@ -45,7 +40,7 @@ class Login extends Component {
                     source={{ uri: 'http://www.joofr.com/assets/images/gallery/image01.jpg' }} />
 
                 <ScrollView
-                    contentContainerStyle={{ flex: 1, paddingRight: 20, paddingLeft: 20, backgroundColor: 'rgba(73, 108, 50, 0.9)' }}
+                    contentContainerStyle={{ flex: 1, paddingRight: 20, paddingLeft: 20, backgroundColor: 'rgba(3, 47, 93, 0.9)' }}
                 >
                     <View style={{ alignItems: 'center', flex: 1, justifyContent: 'center' }}>
                         <Image
