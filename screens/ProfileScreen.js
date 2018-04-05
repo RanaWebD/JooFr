@@ -9,11 +9,6 @@ class ProfileScreen extends Component {
     render() {
         return (
             <View style={{ flex: 1 }}>
-                <LinearGradient
-                    colors={['#496C32', '#32CD32']}
-                    style={{ height: 24 }}
-                >
-                </LinearGradient>
                 <Header navigation={this.props.navigation} />
                 <ScrollView contentContainerStyle={{ display: 'flex', flex: 1, marginTop: 20 }}>
                     <Card>

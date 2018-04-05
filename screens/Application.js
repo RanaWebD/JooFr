@@ -7,7 +7,8 @@ import SelectQuantityScreen from './SelectQuantityScreen';
 
 class Application extends Component {
   render() {
-    return <HomeScreen navigation={this.props.navigation} />;
+    return <LoginScreen />;
+    // return <HomeScreen navigation={this.props.navigation} />;
     // if (this.props.isLoggedIn) {
     //   return <ProfileScreen />;
     // } else {
